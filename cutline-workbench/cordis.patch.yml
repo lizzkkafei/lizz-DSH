@@ -1,0 +1,3 @@
+- insert:
+    - id: cutline-workbench
+      name: '@local/cutline-workbench'
