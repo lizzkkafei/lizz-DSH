@@ -6,12 +6,12 @@ DeepSeek Harness（DSH）插件与本地媒体资源工作区。
 
 | 目录 | 内容 |
 |---|---|
-| [`cutline-workbench/`](cutline-workbench/) | **切线 Cutline**：从会话进入的单窗口视频剪辑工作台插件（多视频导入、磁吸时间线、音频角色/自动闪避、AI 粗剪/脚本字幕/9 种调色、MP4 导出） |
+| [`zhizhen-cut/`](zhizhen-cut/) | **zhizhen-cut**（切线 Cutline）：从会话进入的单窗口视频剪辑工作台插件（多视频导入、磁吸时间线、音频角色/自动闪避、AI 粗剪/脚本字幕/9 种调色、MP4 导出） |
 | [`music-library/`](music-library/) | 10 首本地背景音乐，按类型分目录，含 CC BY 4.0 署名说明与 `catalog.json` 元数据 |
 
-![切线 Cutline](cutline-workbench/preview.png)
+![切线 Cutline](zhizhen-cut/preview.png)
 
-## 切线 Cutline
+## zhizhen-cut · 切线 Cutline
 
 - **入口**：会话输入框左侧「剪辑」按钮，或 `⌥C`；`Esc` 返回会话。
 - **剪辑**：磁吸时间线、拖拽重排、边缘修剪、播放头剪开（B / ⌘B）、波纹删除、掠视预览、触控板捏合缩放、专业模式角色泳道。
@@ -23,7 +23,7 @@ DeepSeek Harness（DSH）插件与本地媒体资源工作区。
 ### 开发
 
 ```bash
-cd cutline-workbench
+cd zhizhen-cut
 node scripts/build.mjs          # 从 src/ 生成 client.js
 node scripts/smoke.mjs          # 模块注册 smoke
 node scripts/render-smoke.mjs   # 工作台渲染 smoke
@@ -33,7 +33,7 @@ node --test tests/engine.test.mjs
 
 安装/更新插件后刷新 DSH 页面（⌘R）以载入最新 `client.js`。
 
-详细说明见 [`cutline-workbench/README.md`](cutline-workbench/README.md)。
+详细说明见 [`zhizhen-cut/README.md`](zhizhen-cut/README.md)。
 
 ## 背景音乐库
 

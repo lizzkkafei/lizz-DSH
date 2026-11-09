@@ -12,7 +12,7 @@
 
 - **会话输入框左侧的「剪辑」按钮**（带当前片段数角标）。
 - 任意位置按 **⌥C** 打开；打开后 **Esc** 逐层退出（面板 → 工作台）。
-- 插件已安装到 `desktop` profile：`@local/cutline-workbench`。
+- 插件已安装到 `desktop` profile：`zhizhen-cut`。
 
 > 若刚更新过插件代码，请刷新页面（⌘R）以载入最新 client bundle；仍未更新时重启 DSH。
 

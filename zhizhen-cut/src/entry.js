@@ -1,5 +1,5 @@
 /**
- * Client half of the cutline-workbench bundle.
+ * Client half of the zhizhen-cut bundle.
  *
  * Registers a session composer entry (`conversation.input.left`) and the
  * full-frame workbench (`shell.overlay`), installs the bundle stylesheet, and
@@ -12,7 +12,7 @@ const ui = require('./ui');
 const MAIN_CSS = require('./styles.css');
 const TIMELINE_CSS = require('./timeline.css');
 
-const PACKAGE_ID = '@local/cutline-workbench';
+const PACKAGE_ID = 'zhizhen-cut';
 const LOCALE_NS = 'cutlineWorkbench';
 
 const zh = {
@@ -704,7 +704,7 @@ function apply(ctx) {
     ctx.slots.register(
       {
         name: 'conversation.input.left',
-        id: 'cutline-workbench',
+        id: 'zhizhen-cut',
         order: 20,
         locale: LOCALE_NS,
       },
@@ -716,7 +716,7 @@ function apply(ctx) {
     ctx.slots.register(
       {
         name: 'shell.overlay',
-        id: 'cutline-workbench',
+        id: 'zhizhen-cut',
         order: 80,
         locale: LOCALE_NS,
       },

@@ -84,7 +84,7 @@ const parts = [
   '      const mod = { exports: {} };',
   '      __cache[key] = mod;',
   '      const factory = __modules[key];',
-  '      if (typeof factory !== "function") throw new Error("cutline-workbench: unknown module " + id);',
+  '      if (typeof factory !== "function") throw new Error("zhizhen-cut: unknown module " + id);',
   '      factory(mod, mod.exports, __load);',
   '      return mod.exports;',
   '    }',

@@ -11,7 +11,7 @@ const engine = require('./engine');
 const h = React.createElement;
 
 /** Package id used for tagging logs and DOM. */
-const PACKAGE_ID = '@local/cutline-workbench';
+const PACKAGE_ID = 'zhizhen-cut';
 
 /* ------------------------------------------------------------------ */
 /* Locale bridge                                                       */

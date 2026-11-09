@@ -1,9 +1,9 @@
 {
-  "name": "@local/cutline-workbench",
+  "name": "zhizhen-cut",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "切线 Cutline — a single-window video editing workbench opened from a chat session, with multi-video import, magnetic timeline editing, and WebM export.",
+  "description": "zhizhen-cut — a single-window video editing workbench opened from a DSH session, with multi-video import, magnetic timeline editing, audio roles, AI tools, and MP4 export.",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
@@ -15,10 +15,14 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "screenshots.json",
+    "README.md"
   ],
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web",
       "immediately": true,
@@ -29,5 +33,11 @@
         "@deepseek-ai/dsh-client-locale"
       ]
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizzkkafei/lizz-DSH.git",
+    "directory": "zhizhen-cut"
+  },
+  "homepage": "https://github.com/lizzkkafei/lizz-DSH/tree/main/zhizhen-cut"
 }

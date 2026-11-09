@@ -19,7 +19,7 @@
 ## 构建与自检
 
 - 单文件语法检查：`node --check src/engine.js`（其余同理；`.js` 是普通脚本）。
-- 纯逻辑测试：`cd cutline-workbench && node --test tests/engine.test.mjs`
+- 纯逻辑测试：`cd zhizhen-cut && node --test tests/engine.test.mjs`
 - 全量构建：`node scripts/build.mjs`（需所有源文件存在）。构建会：拼接模块、内联 CSS、`node --check client.js`、打印大小。
 - 不要新增依赖，不要联网。
 

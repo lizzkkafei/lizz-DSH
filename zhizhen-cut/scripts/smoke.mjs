@@ -54,7 +54,7 @@ const context = vm.createContext({
 
 vm.runInContext(code, context);
 if (!registration) throw new Error('client.js did not call window.__ModuleLoader__.load');
-if (registration.id !== '@local/cutline-workbench') {
+if (registration.id !== 'zhizhen-cut') {
   throw new Error(`unexpected bundle id: ${registration.id}`);
 }
 
